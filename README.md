@@ -6,15 +6,15 @@ Repository to sync &amp; store course files. The courses include all core course
 
 ##Included Courses##
 ######Completed:######
-| Course | Description | Semester
-|:-------|:----------:|--------------:
-| CS 110 | Computer Science I | Spring 2013
-| CS 120 | Computer Science II | Fall 2013
-| CS 210 | Algorithm Analysis and Design | Spring 2014
+| Course | Description                   | Semester    |
+|:-------|:-----------------------------:|------------:|
+| CS 110 | Computer Science I            | Spring 2013 |
+| CS 120 | Computer Science II           | Fall 2013   |
+| CS 210 | Algorithm Analysis and Design | Spring 2014 |
 
 ######In Progress:######
-| Course | Description | Semester
-|:-------|:----------:|--------------:
-| ~~CS 320~~ | ~~Internetworking~~ | Fall 2014
-| ~~CS 330~~ | ~~Operating Systems~~ | Fall 2014
-| ~~CS 481~~ | ~~*Data Mining*~~ | Fall 2014
+| Course | Description       | Semester  |
+|:-------|:-----------------:|----------:|
+| CS 320 | Internetworking   | Fall 2014 |
+| CS 330 | Operating Systems | Fall 2014 |
+| CS 481 | *Data Mining*     | Fall 2014 |
