@@ -1,4 +1,4 @@
-![alt text](../Other/Logo.png "Logo")
+![alt text](../Other/Logo.png)
 #CS 120 - Computer Science II#
 ##Prof. Jonathan Thompson##
 ###Fall 2013###
@@ -7,8 +7,10 @@
 
 #####Topics:#####
 * Graphical User Interfaces
-* Classes, Interfaces, and Abstraction
-* Inheritance 
+* Inheritance
+	* Classes
+	* Interfaces
+	* Abstraction
 * Stacks and Queues
 * LinkedLists
 * File I/O
