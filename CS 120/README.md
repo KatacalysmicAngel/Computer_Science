@@ -6,12 +6,12 @@
 ####Continued Building the Core Concepts of Computer Science using Java####
 
 #####Topics:#####
-	* Graphical User Interfaces
-	* Classes, Interfaces, and Abstraction
-	* Inheritance 
-	* Stacks and Queues
-	* LinkedLists
-	* File I/O
-	* Recursion
-	* Sort & Search
+* Graphical User Interfaces
+* Classes, Interfaces, and Abstraction
+* Inheritance 
+* Stacks and Queues
+* LinkedLists
+* File I/O
+* Recursion
+* Sort & Search
 - - - -
