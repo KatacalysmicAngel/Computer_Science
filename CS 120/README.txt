@@ -1,4 +1,4 @@
-![alt text](../Other/Logo.png)
+![alt text](../Other/Logo.png "Logo")
 #CS 120 - Computer Science II#
 ##Prof. Jonathan Thompson##
 ###Fall 2013###
