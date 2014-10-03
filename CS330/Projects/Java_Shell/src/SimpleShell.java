@@ -5,10 +5,12 @@ import java.util.Arrays;
 /**
  * Emulates a Terminal Shell
  *
- * @author Nicholas Alexander
- * @version 9/29/2014
+ * @author Nicholas Alexander - Part 1
+ * @author Alec Murray - Part 2
+ * @version 10/1/2014
  */
-public class SimpleShell {
+public class SimpleShell
+{
 
 	/**
 	 * Starts a Shell
@@ -23,13 +25,18 @@ public class SimpleShell {
 		ProcessBuilder builder = new ProcessBuilder();
 		builder.directory(new File(System.getProperty("user.dir")));
 
+		System.out.println("Welcome! Use \"exit\" command to Quit");
+
 		while (true)
 		{
 			System.out.print("jsh: " + builder.directory().getCanonicalPath() + ">");
 			commandLine = console.readLine();
 			ArrayList<String> parsedCommand = parse(commandLine);
 
-			if (commandLine.equals(""))
+
+			if (commandLine.equals("exit"))
+				System.exit(0);
+			else if (commandLine.equals(""))
 				continue;
 
 			try
