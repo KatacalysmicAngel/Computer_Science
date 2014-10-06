@@ -7,7 +7,7 @@ import java.util.Arrays;
  *
  * @author Nicholas Alexander - Part 1
  * @author Alec Murray - Part 2
- * @version 10/1/2014
+ * @version 10/4/2014
  */
 public class SimpleShell
 {
@@ -71,7 +71,8 @@ public class SimpleShell
 	{
 		if (commandLine != null)
 		{
-			ArrayList<String> command = new ArrayList<String>(Arrays.asList(commandLine.split(" ")));
+			// Regular Expression to conserve spaces within Double Quotes
+			ArrayList<String> command = new ArrayList<String>(Arrays.asList(commandLine.split("[ ]+(?=([^\"]*\"[^\"]*\")*[^\"]*$)")));
 			for (String element : command)
 			{
 				if (element.startsWith("-"))
