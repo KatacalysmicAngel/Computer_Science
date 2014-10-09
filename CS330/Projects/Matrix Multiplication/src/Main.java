@@ -45,14 +45,14 @@ public class Main
 			}
 		}
 
-		System.out.print(printMatrix(matrixA));
+		System.out.print(matrixToString(matrixA));
 		System.out.println();
-		System.out.print(printMatrix(matrixB));
+		System.out.print(matrixToString(matrixB));
 		System.out.println();
-		System.out.print(printMatrix(matrixC));
+		System.out.print(matrixToString(matrixC));
 	}
 
-	private static String printMatrix(int[][] matrix)
+	private static String matrixToString(int[][] matrix)
 	{
 		String matrixString = "";
 		for (int i = 0; i < matrix.length; i++)
