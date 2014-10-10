@@ -20,6 +20,10 @@ public class Worker implements Runnable
 
 	public void run()
 	{
+	    for(int i = 0; i < matrixA[0].length; i++)
+	    {
+	        matrixC[row][col] += matrixA[row][i] * matrixB[i][col];
+	    }
 		System.out.println("{" + String.valueOf(this.row) + ", " + String.valueOf(this.col) + "}\n");
 	}
 }
